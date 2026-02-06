@@ -9,42 +9,41 @@ A production-grade SPI (Serial Peripheral Interface) Master controller with adva
 
 ---
 
-## ✨ Key Features
+##  Key Features
 
-🚀 **Advanced Protocol Support**
+ **Advanced Protocol Support**
 - All 4 SPI modes (CPOL/CPHA combinations)
 - MSB/LSB first transmission
 - 4-16 bit configurable data width
 - Up to 50 MHz SCLK frequency
 
-💾 **Dual FIFO Buffering**
+ **Dual FIFO Buffering**
 - Independent 16-deep TX/RX FIFOs
 - Programmable watermark levels
 - Level indicators for flow control
 - Overflow/underflow protection
 
-⚡ **DMA Integration**
+ **DMA Integration**
 - Dedicated TX and RX DMA channels
 - Burst transfer support
 - Reduces CPU overhead
 - High-throughput operation
 
-🔔 **Interrupt Controller**
+ **Interrupt Controller**
 - TX/RX complete interrupts
 - FIFO threshold interrupts
 - Error interrupts
 - Individual masking
 
-🎛️ **Flexible Configuration**
-- Memory-mapped register interface
+ **Flexible Configuration**
+Memory-mapped register interface
 - Runtime reconfiguration
 - Multiple chip select support
 - Loopback test mode
 
 ---
 
-## 📋 Specifications
-
+##  Specifications
 | Feature | Specification |
 |---------|---------------|
 | **Protocol** | SPI Master, IEEE standard compliant |
@@ -59,7 +58,7 @@ A production-grade SPI (Serial Peripheral Interface) Master controller with adva
 
 ---
 
-## 🏗️ Architecture
+##  Architecture
 
 ```
                  ┌────────────────────────────────┐
@@ -102,7 +101,7 @@ A production-grade SPI (Serial Peripheral Interface) Master controller with adva
 
 ---
 
-## 📁 Directory Structure
+##  Directory Structure
 
 ```
 spi-controller/
@@ -141,7 +140,7 @@ spi-controller/
 
 ---
 
-## 🚀 Quick Start
+##  Quick Start
 
 ### Prerequisites
 - ModelSim/QuestaSim 10.6+ or Vivado Simulator 2020.1+
@@ -196,7 +195,7 @@ spi_master_top #(
 
 ---
 
-## 📝 Register Map
+##  Register Map
 
 | Offset | Register | Access | Description |
 |--------|----------|--------|-------------|
@@ -213,7 +212,7 @@ spi_master_top #(
 
 ---
 
-## ⚡ Performance
+##  Performance
 
 ### Resource Usage (Xilinx 7-Series)
 ```
@@ -230,7 +229,7 @@ Fmax:     200 MHz
 
 ---
 
-## 🧪 Verification
+##  Verification
 
 ### Test Coverage: 100%
 
@@ -247,7 +246,7 @@ Fmax:     200 MHz
 
 ---
 
-## 💡 Usage Examples
+##  Usage Examples
 
 ### Example 1: Simple Transfer
 ```c
@@ -281,7 +280,7 @@ void spi_isr(void) {
 
 ---
 
-## 🔮 Future Work
+##  Future Work
 
 - [ ] Quad SPI (QSPI) support
 - [ ] AXI4-Stream interface
@@ -301,32 +300,16 @@ Contributions welcome! Please:
 
 ---
 
-## 📄 License
 
-MIT License - see [LICENSE](LICENSE) file
 
 ---
 
 ## 📧 Contact
 
-**Maintainer:** [Your Name]  
-**Email:** your.email@example.com  
-**Project:** [github.com/yourusername/spi-controller](https://github.com/yourusername/spi-controller)
+**Maintainer:** AL AMEEN   
+**Email:** alameenvv12@gmail.com  
+
 
 ---
 
-## 🙏 Acknowledgments
 
-- FPGA/VLSI Internship Program
-- Mentor: [Mentor Name]
-- Open-source Verilog community
-
----
-
-<p align="center">
-  <b>⭐ Star this repo if you found it helpful! ⭐</b>
-</p>
-
-<p align="center">
-  Made with ❤️ for the FPGA/VLSI community
-</p>
